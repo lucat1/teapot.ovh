@@ -53,6 +53,13 @@ The whole `/var/www/sites` folder is 32Gib, so you do have plenty of space for
 your site. Please be mindful of what you upload, as the disk quota is shared
 with all the other users!
 
+All files must be `chowned` to `$user:caddy` and have a permission of at least
+`+r` for the group.  To achieve this you can use:
+```sh
+$ chown -R $user:caddy /var/www/sites/$user
+$ chmod -R 750 /var/www/sites/$user
+```
+
 ## Building a hugo website
 
 The command line for the `hugo` website builder is available on the `proxy`
