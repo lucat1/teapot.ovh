@@ -30,12 +30,12 @@ client. Our server uses SMTPS and IMAPS for communication.
 # Mail sorting
 
 As per RFC5233[^2] our mail server supports so-called subaddressing. That is,
-when you receive an email at `key+user@teapot.ovh`, the `key` part does not
+when you receive an email at `user+key@teapot.ovh`, the `key` part does not
 make up part of your username, but instead is considered as "detailed addressing".
 Our mail server uses this additional information to automatically sort your
 incoming mail in different folders based on this prefix[^3].
 
-When the user `user` receives email at the address `key+user@teapot.ovh`, this
+When the user `user` receives email at the address `user+key@teapot.ovh`, this
 message will be stored in the `Sorted/Key` folder (please mind, the
 automatic capitalization of `key`). If such a folder is not available at the
 moment of delivery, the system will automatically create it.
