@@ -42,9 +42,10 @@ moment of delivery, the system will automatically create it.
 
 ## Subscribing to Sorted Folders
 
-By default, most mail clients don't the these folders. While the configuration
-depends on the mail client being used, here are the steps required to show and
-actively synchronize the Sorted Folders in Mozzilla Thunderbird:
+By default, most mail clients don't show the these folders. While the
+configuration depends on the mail client being used, here are the steps
+required to show and actively synchronize the Sorted Folders in Mozzilla
+Thunderbird:
 
 0. Add your mail account as detailed earlier.
 1. Right-click on the mailbox in your navbar, and select `Subscribe`.
