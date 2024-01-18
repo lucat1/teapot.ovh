@@ -1,7 +1,7 @@
 +++
 title = "Connect to your mailbox"
 author = "Teapot admin"
-date = "2023-03-20"
+date = "2024-01-18"
 +++
 
 To connect to your mailbox you can use these settings on your favourite mail
