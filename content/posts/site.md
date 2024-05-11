@@ -19,7 +19,7 @@ Host honey
   User $user
 
 Host proxy
-  HostName 192.168.1.100
+  HostName 10.0.0.100
   User $user
   ProxyJump honey
 ```
